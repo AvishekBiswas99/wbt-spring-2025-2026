@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <fieldset>
+        <h2>Contact Form</h2>
+        
+        <form>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="firstName" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="lastName" required></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" required> Male
+                        <input type="radio" name="gender" value="Female" required> Female
+                        <input type="radio" name="gender" value="Others" required> Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Company</td>
+                    <td><input type="text" name="company" required></td>
+                </tr>
+                <tr>
+                    <td>Reason of Contact:</td>
+                    <td>
+                        <input type="checkbox" name="reason" value="Project"> Project
+                        <input type="checkbox" name="reason" value="Thesis"> Thesis
+                        <input type="checkbox" name="reason" value="Job"> Job
+                    </td>
+                </tr>
+                <tr>
+                    <td>Topics:</td>
+                    <td>
+                        <input type="checkbox" name="topics" value="Web"> Web Development
+                        <input type="checkbox" name="topics" value="Mobile"> Mobile Development
+                        <input type="checkbox" name="topics" value="AI"> AI/ML Development
+                    </td>
+                </tr>
+                <tr>
+                    <td>Consultation Date:</td>
+                    <td><input type="date" name="date" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+</body>
+</html>

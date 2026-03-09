@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation Form</title>
+<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+    <form>
+        <h2>Donor Information</h2>
+        <table border="0">
+            <tr>
+                <td>First Name <span>*</span></td>
+                <td><input type="text" name="firstname" required></td>
+            </tr>
+            <tr>
+                <td>Last Name<span>*</span></td>
+                <td><input type="text" name="lastname" required></td>
+            </tr>
+            <tr>
+                <td>Company</td>
+                <td><input type="text" name="company"></td>
+            </tr>
+            <tr>
+                <td>Address 1<span>*</span></td>
+                <td><input type="text" name="address1" required></td>
+            </tr>
+            <tr>
+                <td>Address 2</td>
+                <td><input type="text" name="address2"></td>
+            </tr>
+            <tr>
+                <td>City<span>*</span></td>
+                <td><input type="text" name="city" required></td>
+            </tr>
+            <tr>
+                <td>State<span>*</span></td>
+                <td>
+                    <select name="state" required>
+                        <option value="">Select a State</option>
+                        <option value="Dhaka">Dhaka</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip Code<span>*</span></td>
+                <td><input type="text" name="zip" required></td>
+            </tr>
+            <tr>
+                <td>Country<span>*</span></td>
+                <td>
+                    <select name="country" required>
+                        <option value="">Select a Country</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" name="phone"></td>
+            </tr>
+            <tr>
+                <td>Fax</td>
+                <td><input type="text" name="fax"></td>
+            </tr>
+            <tr>
+                <td>Email<span>*</span></td>
+                <td><input type="text" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Donation Amount<span>*</span></td>
+                <td>
+                    <input type="radio" name="amount" required> None
+                    <input type="radio" name="amount" required> $50
+                    <input type="radio" name="amount" required> $75
+                    <input type="radio" name="amount" required> $100
+                    <input type="radio" name="amount" required> $250
+                    <input type="radio" name="amount" required> Other
+                </td>
+            </tr>
+            <tr>
+                <td>Other Amount $</td>
+                <td><input type="text" name="other_amount"></td>
+            </tr>
+        </table>
+
+        <p>
+            <input type="checkbox"> I am interested in giving on a regular basis.<br>
+            Monthly Credit Card $ <input type="text" size="5"> For <input type="text" size="3"> Months
+        </p>
+
+       
+
+        <p>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+
+</body>
+</html>
